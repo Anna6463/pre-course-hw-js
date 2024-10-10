@@ -1,17 +1,17 @@
 
 
 let number = 1;
-console.log(number); // 1
+console.log(number); 
 
-// Второй вызов консоли: 3
-++number;  // Увеличиваем на 1 (сейчас 2)
-++number;  // Увеличиваем на 1 (сейчас 3)
-console.log(number); // 3
 
-// Третий вызов консоли: 3
-console.log(number); // 3
+++number;  
+++number;  
+console.log(number); 
 
-// Четвертый вызов консоли: 1
---number;  // Уменьшаем на 1 (сейчас 2)
---number;  // Уменьшаем на 1 (сейчас 1)
-console.log(number); // 1
+
+console.log(number); 
+
+
+--number;  
+--number;  
+console.log(number); 
