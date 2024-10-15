@@ -11,7 +11,8 @@ let passportMarried = {
 
 //et passportMarried2 = JSON.parse(JSON.stringify(passportMarried));
 
-let passportMarried2 = { ...passportMarried,  married: true, address: { ...passportMarried } } 
+let passportMarried2 = { ...passportMarried,  married: true, address: { country: "USA",
+city: "Bobryisk" } } 
 //passportMarried2.married = ...
  
 console.log(passportMarried); 
