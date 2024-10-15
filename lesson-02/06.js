@@ -6,8 +6,13 @@ let passportWithAddress = {
       city: "LA"
   }
 };
+// Создаем глубокую копию объекта
+let passportCopy = JSON.parse(JSON.stringify(passportWithAddress));
 
-let passportWithAddress2 = structuredClone(passportWithAddress);
-passportWithAddress2.address.city = 'Bobryisk';
+// Меняем значение city на 'Bobryisk'
+passportCopy.address.city = 'Bobryisk';
+
+// Проверяем, что изменения верны
+console.log(passportCopy);
+
 console.log(passportWithAddress);
-console.log(passportWithAddress2);
