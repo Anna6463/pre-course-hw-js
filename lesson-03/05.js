@@ -27,5 +27,6 @@ const newObj = {
 }
 
 //const combinedObject = { ...object1, ...object2 };
- const people = { ...users2, ...newObj };
- console.log(people);
+users2.push(newObj);
+
+ console.log(users2);
